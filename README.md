@@ -6,7 +6,7 @@ Workaround to make Roland Quad-Capture (UA-55) in 48kHz on Linux
 > I don't guarantee it will work for you or damage your hardware.
 
 ## How to
-Set your quad-capture in 58Khz to do so you will need windows or mac using their [application](https://www.roland.com/global/products/quad-capture/downloads/).
+Set your quad-capture in 48Khz to do so you will need windows or mac using their [application](https://www.roland.com/global/products/quad-capture/downloads/).
 
 Download your [Linux Kernel source](https://github.com/torvalds/linux).
 Available also with patches in your distribution.

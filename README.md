@@ -11,7 +11,8 @@ Set your quad-capture in 48Khz to do so you will need windows or mac using their
 Download your [Linux Kernel source](https://github.com/torvalds/linux).
 Available also with patches in your distribution.
 
-Update `quirks-table.h` file in `sound/usb` replacing Quad-capture entry.
+Patch the kernel using `patch -p1 < ../path/to/alsa-quadcapture.patch` or
+manually update `quirks-table.h` file in `sound/usb` replacing Quad-capture entry.
 
 ### Add to Kernel
 Compile and install the Kernel ([tutorial](https://davidaugustat.com/linux/how-to-compile-linux-kernel-on-ubuntu))

@@ -43,6 +43,19 @@ Run `make all`
 
 Run `make load`
 
+### Tips
+
+Command for getting current kernel for Ubuntu/Linux Mint:
+`sudo apt source linux-image-unsigned-$(uname -r)`
+
+Adding the following commands to the MAKEFILE:
+
+```
+KVERSION :=$(shell uname -r)
+KDIR :=/lib/modules/$(KVERSION)/build
+PWD :=$(shell pwd)
+```
+
 ## How does it work
 It seems that Quad-Capture is persisting the rate inside the hardware (not sure if this is class compliant).
 
